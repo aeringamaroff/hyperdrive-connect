@@ -16,6 +16,8 @@ import { Client } from 'pg';
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
 		// Create a new client instance for each request.
+		console.log('CREATING CLIENT');
+
 		const client = new Client({
 			connectionString: env.WRANGLER_HYPERDRIVE_LOCAL_CONNECTION_STRING_CLOUDEATER,
 		});
