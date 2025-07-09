@@ -22,6 +22,7 @@ export default {
 
 		try {
 			// Connect to the database
+
 			await client.connect();
 			console.log('Connected to PostgreSQL database');
 
