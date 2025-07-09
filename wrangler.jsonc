@@ -36,7 +36,7 @@
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 	 */
 	"vars": {
-		"WRANGLER_HYPERDRIVE_LOCAL_CONNECTION_STRING_CLOUDEATER": "postgres://pathetoneadmin:LFI%21bVAwsPAss%2BEsrM%29%3AkB%5C@hyperdrive-test.c1y42w4w450m.eu-north-1.rds.amazonaws.com/cloudeater"
+		"WRANGLER_HYPERDRIVE_LOCAL_CONNECTION_STRING_CLOUDEATER": "postgres://pathetoneadmin:LFI%21bVAwsPAss%2BEsrM%29%3AkB%5C@hyperdrive-test.c1y42w4w450m.eu-north-1.rds.amazonaws.com:5432/cloudeater"
 	}
 	/**
 	 * Note: Use secrets to store sensitive data.

@@ -41,7 +41,7 @@ export default {
 		} catch (error: any) {
 			console.error('Database error:', error.message);
 
-			return Response.error();
+			return error;
 		}
 	},
 };
